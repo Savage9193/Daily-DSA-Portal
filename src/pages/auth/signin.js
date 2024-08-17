@@ -6,7 +6,7 @@ export default function SignInPage() {
   return (
     <div className={styles.container}>
       <div className={styles.form}>
-        <h1>Sign In</h1>
+        <h1 className='text-gray-100'>Sign In</h1>
         <button onClick={() => signIn('github')}>Sign in with GitHub</button>
         <button onClick={() => signIn('google')}>Sign in with Google</button>
         <button onClick={() => signIn('linkedin')}>Sign in with LinkedIn</button>
